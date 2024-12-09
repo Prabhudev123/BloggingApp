@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
-@Entity
+@Entity(name = "users")
 @Getter
 @Setter
 @RequiredArgsConstructor
